@@ -1,1 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2022-10-25T03:31:09.816Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" version="20.2.3" etag="TIpEbTjxHWCaAnmb4c_-" type="github"><diagram id="lilYD6lGb_49hB4aALXz">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-10-25T04:47:46.378Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="h_njEKIp-M2X4ZsETXa9" version="20.2.3" type="github">
+  <diagram id="lilYD6lGb_49hB4aALXz" name="Página-1">
+    <mxGraphModel dx="981" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3eETtnrutBcmLOvAd9x1-3" value="ID producto: (int 1 a 999)&lt;br&gt;Descripcion: char (80)&lt;br&gt;Importe: float&lt;br&gt;Stock: int&lt;br&gt;Estado: bool" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="350" width="170" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="3eETtnrutBcmLOvAd9x1-4" value="Nombre Completo: char(80)&amp;nbsp;&lt;br&gt;DNI: int (sin puntos)&lt;br&gt;Sucursal: (1 a 5)&lt;br&gt;Numero de Mesa: (1 a 20)&lt;br&gt;Fecha:&lt;br&gt;Turno: int (1 mañana 2 tarde 3 noche)&lt;br&gt;ID Reserva: (consecutivo numerico)&lt;br&gt;Estado: bool" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="350" width="230" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="3eETtnrutBcmLOvAd9x1-5" value="ID Orden: int consecutivo&lt;br&gt;Cantidad: int (resta stock &amp;gt;0)&lt;br&gt;Facturacion: Cantidad * Importe de menu&lt;br&gt;Mesa: (1 a 20)&lt;br&gt;Fecha facturacion:&lt;br&gt;Estado: bool&lt;br&gt;" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="501" y="350" width="229" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="3eETtnrutBcmLOvAd9x1-6" value="ID Sucursal: int autonumerico&lt;br&gt;Nombre: char (50)&lt;br&gt;Cantidad mesas: int (opcional)&lt;br&gt;Direccion: char (80)&lt;br&gt;Estado: bool" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="350" width="200" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="3eETtnrutBcmLOvAd9x1-7" value="Reservas" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="280" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3eETtnrutBcmLOvAd9x1-8" value="Menu" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="280" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3eETtnrutBcmLOvAd9x1-9" value="Sucursal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="280" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3eETtnrutBcmLOvAd9x1-10" value="Orden" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="504" y="280" width="226" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3eETtnrutBcmLOvAd9x1-11" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="3eETtnrutBcmLOvAd9x1-7" target="3eETtnrutBcmLOvAd9x1-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="200" as="sourcePoint" />
+            <mxPoint x="520" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="175" y="190" />
+              <mxPoint x="860" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3eETtnrutBcmLOvAd9x1-12" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="3eETtnrutBcmLOvAd9x1-10" target="3eETtnrutBcmLOvAd9x1-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="430" as="sourcePoint" />
+            <mxPoint x="520" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="617" y="220" />
+              <mxPoint x="395" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3eETtnrutBcmLOvAd9x1-13" value="Pago (Opcional) para restar de la orden" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="630" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3eETtnrutBcmLOvAd9x1-14" value="ID Pago: int&lt;br&gt;Forma de pago: int (1tc, 2 efectivo, etc.)&lt;br&gt;Importe: float&lt;br&gt;Fecha de pago: fecha&lt;br&gt;Estado: bool" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="90" y="700" width="230" height="230" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
